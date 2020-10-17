@@ -2,10 +2,14 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <PackageVersion>0.1.1</PackageVersion>
+        <Description>A collection of utilities in F#.</Description>
+        <Copyright>Max Clifford</Copyright>
+        <RepositoryUrl>https://github.com/mc738/FUtil/</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Library.fs"/>
+        <Compile Include="Library.fs" />
     </ItemGroup>
 
 </Project>
