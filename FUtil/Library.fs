@@ -305,6 +305,10 @@ module Passwords =
         rng.GetBytes(bytes)
         
         bytes
+    
+    let generateSaltHex length = ConversionHelpers.bytesToHex (generateSalt length)
+    
+    let generateSaltBase64 length = ConversionHelpers.bytesToBase64 (generateSalt length)
             
     /// Hash a password and return a byte array.
     let hashPassword (algo: HashAlgorithmName) (iterations: int) (hashSize: int) (salt: byte array) (password: byte array) =
