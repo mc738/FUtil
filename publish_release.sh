@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # TODO set version dynamically.
 VERSION = "0.1.2"
 
