@@ -13,6 +13,8 @@ ProjectSection(SolutionItems) = preProject
 	publish_release.sh = publish_release.sh
 EndProjectSection
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FUtil.Tests", "FUtil.Tests\FUtil.Tests.fsproj", "{1F1076C4-F16A-40CF-A82C-0A462DB49CD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,5 +25,9 @@ Global
 		{7CA1BF7D-191F-4AA9-A9EC-2DCDAC6A0762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CA1BF7D-191F-4AA9-A9EC-2DCDAC6A0762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CA1BF7D-191F-4AA9-A9EC-2DCDAC6A0762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1076C4-F16A-40CF-A82C-0A462DB49CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1076C4-F16A-40CF-A82C-0A462DB49CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1076C4-F16A-40CF-A82C-0A462DB49CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1076C4-F16A-40CF-A82C-0A462DB49CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
