@@ -9,7 +9,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Library.fs" />
+        <Compile Include="Streams.fs" />
+        <Compile Include="Threads.fs" />
+        <Compile Include="Messaging.fs" />
+        <Compile Include="Results.fs" />
+        <Compile Include="Maps.fs" />
+        <Compile Include="Pipelines.fs" />
+        <Compile Include="Hashing.fs" />
+        <Compile Include="Security.fs" />
+        <Compile Include="Conversions.fs" />
     </ItemGroup>
 
 </Project>
