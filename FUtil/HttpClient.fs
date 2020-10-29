@@ -59,7 +59,7 @@ let tryPost (returnType: ReturnType) (client: HttpClient) (url: string) (body: b
     async {
         try
             
-            let content = ByteArrayContent body
+            use content = new ByteArrayContent(body)
             
             let! request = client.PostAsync(url, content) |> Async.AwaitTask
 
