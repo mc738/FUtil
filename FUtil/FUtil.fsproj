@@ -18,6 +18,7 @@
         <Compile Include="Pipelines.fs" />
         <Compile Include="Hashing.fs" />
         <Compile Include="Security.fs" />
+        <Compile Include="Serialization.fs" />
     </ItemGroup>
 
 </Project>
