@@ -19,6 +19,7 @@
         <Compile Include="Hashing.fs" />
         <Compile Include="Security.fs" />
         <Compile Include="Serialization.fs" />
+        <Compile Include="HttpClient.fs" />
     </ItemGroup>
 
 </Project>

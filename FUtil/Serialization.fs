@@ -2,7 +2,6 @@ namespace FUtil.Serialization
 
 open System
 open System.Text
-open System.Text.Json
 
 module Utilities =
     let bytesToString (data: byte array) = Encoding.UTF8.GetString data
@@ -10,7 +9,9 @@ module Utilities =
     let stringToBytes (data: string) = Encoding.UTF8.GetBytes data
     
 module Json =
-    
+
+    open System.Text.Json
+        
     let tryDeserialize<'a> (json: string) =
         
         try
