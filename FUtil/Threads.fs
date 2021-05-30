@@ -11,8 +11,8 @@ let dispatchTask task =
 let convertValueTask<'a> (task: ValueTask<'a>) = task.AsTask() |> Async.AwaitTask
 
 /// A helper function simulate a synchronously blocking process.
-let blockFor time =
+let blockFor time = ()
     // Test - wait one second before replying.
-    Async.Sleep time
-    |> Async.RunSynchronously
-    |> ignore
+    //Async.Sleep time
+    //|> Async.RunSynchronously
+    //|> ignore

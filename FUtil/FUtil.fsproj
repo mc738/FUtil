@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
-        <PackageVersion>0.1.2</PackageVersion>
+        <PackageVersion>0.1.3</PackageVersion>
         <Description>A collection of utilities in F#.</Description>
         <Copyright>Max Clifford</Copyright>
         <RepositoryUrl>https://github.com/mc738/FUtil/</RepositoryUrl>
+        <TargetFrameworks>net5.0;netcoreapp3.1</TargetFrameworks>
     </PropertyGroup>
 
     <ItemGroup>
@@ -21,6 +21,8 @@
         <Compile Include="Serialization.fs" />
         <Compile Include="HttpClient.fs" />
         <Compile Include="Files.fs" />
+        <Compile Include="Arrays.fs" />
+        <Compile Include="Strings.fs" />
     </ItemGroup>
 
 </Project>

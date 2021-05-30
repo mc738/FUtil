@@ -21,7 +21,6 @@ let initialize url =
 
 let tryGet (returnType: ReturnType) (client: HttpClient) (url: string) =
     async {
-
         try
             let! request = client.GetAsync url |> Async.AwaitTask
 
@@ -58,9 +57,9 @@ let tryGet (returnType: ReturnType) (client: HttpClient) (url: string) =
 let tryPost (returnType: ReturnType) (client: HttpClient) (url: string) (body: byte array) =
     async {
         try
-            
+
             use content = new ByteArrayContent(body)
-            
+
             let! request = client.PostAsync(url, content) |> Async.AwaitTask
 
             match request.IsSuccessStatusCode with
